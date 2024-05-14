@@ -27,8 +27,8 @@
     </section>
 </template>
 
-<!-- <script>
-import CustomerTable from "./CustomerTable.vue";
+<script>
+import CustomerTable from "@/components/home/CustomerTable.vue";
 
 export default {
     emit: ["show_detail"],
@@ -109,7 +109,7 @@ export default {
     },
     mounted: {},
 };
-</script> -->
+</script>
 
 <style scoped>
 .window1 {

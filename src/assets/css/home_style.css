@@ -138,7 +138,7 @@ body {
 #pmain_window {
   text-align: center;
   /*display: block;*/
-  display: none;
+  display: block;
 }
 #pmain_window h1 {
   font-size: 3rem;
@@ -152,7 +152,7 @@ body {
 }
 #func1 {
   /*display: block;*/
-  display: none;
+  display: block;
 }
 .functitle {
   margin-top: 10px;
@@ -197,7 +197,7 @@ body {
 }
 #func2 {
   /*display: block;*/
-  display: none;
+  display: block;
 }
 .window1 ol {
   position: relative;
@@ -216,7 +216,7 @@ body {
 }
 #func3 {
   /*display: block;*/
-  display: none;
+  display: block;
 }
 #func3 .window1 {
   background-color: #00000000;
@@ -257,7 +257,7 @@ body {
   background-color: #ffffff;
   z-index: 1;
   position: absolute;
-  display: none;
+  display: block;
 }
 .customers_info_0 thead td {
   height: 10px;
@@ -304,7 +304,7 @@ body {
 }
 #func4 {
   display: block;
-  display: none;
+  display: block;
 }
 #func4 .info {
   border: 1px, #000;
@@ -389,7 +389,7 @@ body {
 }
 #func5 {
   display: block;
-  /*display: none;*/
+  /*display: block;*/
 }
 #func5 .bpage button {
   border: #ffffff;
@@ -430,7 +430,7 @@ body {
 }
 #func5 #preloan_table {
   display: block;
-  /*display: none;*/
+  /*display: block;*/
 }
 #func5 #preloan_table .risk_index {
   color: aquamarine;
@@ -439,8 +439,8 @@ body {
   color: rgb(169, 250, 169);
 }
 #func5 #loaning_table {
-  display: none;
+  display: block;
 }
 #func5 #loaned_table {
-  display: none;
+  display: block;
 }

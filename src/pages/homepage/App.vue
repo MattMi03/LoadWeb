@@ -45,7 +45,7 @@
 import MainWindow from '@/components/home/MainWindow.vue';
 import RiskManagement from '@/components/home/RiskManagement.vue';
 import ProductManage from '@/components/home/ProductManage.vue';
-import CustomerTable from '@/components/home/CustomerTable.vue';
+import CustomerManage from '@/components/home/CustomerManage.vue';
 import InfoSend from '@/components/home/InfoSend.vue';
 import LoanHandle from '@/components/home/LoanHandle.vue';
 
@@ -54,7 +54,7 @@ export default {
     MainWindow,
     RiskManagement,
     ProductManage,
-    CustomerTable,
+    CustomerManage,
     InfoSend,
     LoanHandle,
   },
@@ -76,7 +76,7 @@ export default {
           this.currentComponent = 'ProductManage';
           break;
         case 3:
-          this.currentComponent = 'CustomerTable';
+          this.currentComponent = 'CustomerManage';
           break;
         case 4:
           this.currentComponent = 'InfoSend';
