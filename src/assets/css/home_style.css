@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 3em;
+  width: 100%;
+  background-color: rgb(14, 14, 14);
+  border-color: rgb(255, 255, 255);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+header h1 {
+  font-size: 1rem;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: #ffffff;
+}
+header p {
+  font-size: 0.5rem;
+  position: fixed;
+  top: 1rem;
+  color: #ffffff;
+}
+.bhome {
+  position: fixed;
+  width: 50px;
+  height: 20px;
+  left: 15rem;
+  top: 1rem;
+  z-index: 1;
+  background-color: #000;
+  color: #ffffff;
+}
+.bdelogin {
+  position: fixed;
+  width: 5rem;
+  height: 20px;
+  left: 20rem;
+  top: 1rem;
+  z-index: 1;
+  background-color: #000;
+  color: #ffffff;
+}
+header p {
+  text-align: right;
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+}
+body {
+  background-color: rgb(227, 227, 227);
+  top: 0;
+}
+.Avatar {
+  height: 100;
+  width: 100;
+}
+.list {
+  position: fixed;
+  top: 3rem;
+  height: 45rem;
+  width: 10rem;
+  background-color: #1f1c1c;
+}
+.list .circle {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+}
+.list .avatar {
+  height: 100%;
+}
+.list .user_info {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+.list .user_name {
+  margin-top: 1rem;
+  color: #ede0e0;
+}
+.list .pages {
+  position: absolute;
+  text-align: center;
+  margin-top: 10rem;
+}
+.list .pages button {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  width: 9.5rem;
+  height: 4rem;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0.438);
+  background-size: 10rem, 4rem;
+  background-image: url(~@/assets/images/button2.png) no-repeat;
+}
+.list .pages button {
+  height: 44px;
+  padding: 0 15px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  outline: none;
+  position: relative;
+}
+.list .pages button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  content: " ";
+}
+.list .pages button:active::before {
+  opacity: 0.1;
+}
+.main_window {
+  margin-left: 10rem;
+  position: relative;
+  height: 45rem;
+  top: 3rem;
+}
+#pmain_window {
+  text-align: center;
+  /*display: block;*/
+  display: none;
+}
+#pmain_window h1 {
+  font-size: 3rem;
+  height: fit-content;
+  position: center;
+}
+#pmain_window .timer {
+  font-size: 3rem;
+  height: fit-content;
+  position: center;
+}
+#func1 {
+  /*display: block;*/
+  display: none;
+}
+.functitle {
+  margin-top: 10px;
+  text-align: center;
+}
+.window1 {
+  position: absolute;
+  background-color: rgb(234, 234, 234);
+  top: 3rem;
+  height: 45rem;
+  left: 5rem;
+  right: 5rem;
+  z-index: 0;
+}
+.window1 p {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.present_index {
+  position: relative;
+  font-size: 20px;
+}
+.index_chart1 {
+  text-align: center;
+  height: 25rem;
+  width: 30rem;
+  background-color: aqua;
+  position: absolute;
+}
+.index_chart2 {
+  text-align: center;
+  margin-left: 50rem;
+  height: 25rem;
+  width: 30rem;
+  left: 40rem;
+  background-color: aqua;
+  position: absolute;
+}
+.index_change {
+  top: 27rem;
+  position: relative;
+}
+#func2 {
+  /*display: block;*/
+  display: none;
+}
+.window1 ol {
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+}
+.window1 li {
+  background-color: rgb(241, 241, 241);
+  width: 66rem;
+  height: auto;
+}
+.window1 .product_add {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+#func3 {
+  /*display: block;*/
+  display: none;
+}
+#func3 .window1 {
+  background-color: #00000000;
+}
+.customers_table_0 {
+  border: 1px, #000;
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  background-color: #ffffff;
+  /*display: none !important;*/
+  z-index: 0;
+}
+.customers_table_0 .id,
+.customers_table_0 .name {
+  width: 150px;
+  height: 30px;
+}
+.customers_table_0 .loan_state {
+  width: 200px;
+}
+.customers_table_0 tr {
+  height: 30px;
+}
+.customers_table_0 td {
+  text-align: center;
+}
+.customers_table_0 .functions {
+  width: 200px;
+}
+.customers_table_0 .details {
+  width: 100px;
+}
+.customers_info_0 {
+  border: 1px, #000;
+  left: 2rem;
+  top: 3.5rem;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+.customers_info_0 thead td {
+  height: 10px;
+}
+.customers_info_0 thead button {
+  width: 20px;
+  position: relative;
+  left: 34rem;
+  bottom: 1rem;
+}
+.customers_info_0 tr {
+  height: 30px;
+}
+.customers_info_0 td {
+  text-align: center;
+  height: 70px;
+}
+.customers_info_0 th {
+  width: 200px;
+}
+.customers_info_0 .avatar {
+  width: 150px;
+  -ms-grid-row-span: 2;
+}
+.customers_info_0 .function {
+  width: 30px;
+  height: 22px;
+  position: relative;
+  top: 1rem;
+  left: 4rem;
+}
+.customers_info_0 td.avatar button {
+  position: relative;
+  top: 4.5rem;
+  left: 2.8rem;
+}
+.customers_info_0 .info {
+  height: 500px;
+}
+.customers_info_0 .info button {
+  position: relative;
+  top: 14rem;
+  left: 34rem;
+}
+#func4 {
+  display: block;
+  display: none;
+}
+#func4 .info {
+  border: 1px, #000;
+  position: relative;
+  left: 2rem;
+  top: 3rem;
+  background-color: #cecdca;
+  /*display: none !important;*/
+  z-index: 1;
+}
+#func4 .info td.title {
+  height: 42px;
+  width: 60rem;
+}
+#func4 .info input,
+#func4 .info textarea {
+  background-color: rgb(235, 243, 234);
+}
+#func4 .info .title textarea {
+  max-height: 35px;
+  max-width: 60rem;
+  min-width: 60rem;
+  min-height: 35px;
+  z-index: 2;
+  font-size: 20px;
+}
+#limit_text1 {
+  position: absolute;
+  left: 60rem;
+  top: 4rem;
+  z-index: 3;
+  font-size: 10px;
+}
+#limit_text2 {
+  position: absolute;
+  left: 60rem;
+  top: 26rem;
+  z-index: 3;
+  font-size: 10px;
+}
+.info td.text textarea {
+  max-height: 340px;
+  min-height: 340px;
+  max-width: 60rem;
+  min-width: 60rem;
+  z-index: 20;
+  font-size: 20px;
+}
+.info td.tosent,
+.info td.tosent textarea {
+  max-height: 30px;
+  max-width: 10rem;
+  min-width: 10rem;
+  min-height: 30px;
+  font-size: 20px;
+}
+#func4 .reset {
+  position: relative;
+  height: 2rem;
+  width: 5rem;
+  left: 30rem;
+  top: 3rem;
+}
+#func4 .submit {
+  position: relative;
+  height: 2rem;
+  width: 5rem;
+  left: 35rem;
+  top: 3rem;
+}
+#func4 .checkboxes {
+  height: 340px;
+  width: 10rem;
+}
+#func4 .checkcust {
+  position: relative;
+  right: 30px;
+}
+#func4 .checkannounce {
+  position: relative;
+  right: 30px;
+}
+#func5 {
+  display: block;
+  /*display: none;*/
+}
+#func5 .bpage button {
+  border: #ffffff;
+  background-color: aliceblue;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
+}
+#func5 .bpage button {
+  height: 44px;
+  padding: 0 15px;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  outline: none;
+  position: relative;
+}
+#func5 .bpage button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border: inherit;
+  border-color: #000;
+  border-radius: inherit;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  content: " ";
+}
+#func5 .bpage button:active::before {
+  opacity: 0.1;
+}
+#func5 #preloan_table {
+  display: block;
+  /*display: none;*/
+}
+#func5 #preloan_table .risk_index {
+  color: aquamarine;
+}
+#func5 #preloan_table .quest_result {
+  color: rgb(169, 250, 169);
+}
+#func5 #loaning_table {
+  display: none;
+}
+#func5 #loaned_table {
+  display: none;
+}
