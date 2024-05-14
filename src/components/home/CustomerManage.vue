@@ -83,7 +83,7 @@ export default {
 </script>
 
 
-<style scoped>
+<style>
 #func3 .window1 {
     background-color: #00000000;
 }
